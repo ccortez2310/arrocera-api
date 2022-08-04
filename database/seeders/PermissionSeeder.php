@@ -23,6 +23,8 @@ class PermissionSeeder extends Seeder
             ['name' => 'Detalles', 'value' => 'category:show'],
             ['name' => 'Borrar', 'value' => 'category:delete'],
             ['name' => 'Cambiar estado', 'value' => 'category:change_status'],
+            ['name' => 'Destacar', 'value' => 'category:change_featured'],
+            ['name' => 'Gestionar Ofertas', 'value' => 'category:offer_management'],
 
             //Roles
             ['name' => 'Listar', 'value' => 'role:access'],
